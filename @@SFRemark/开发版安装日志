@@ -1,0 +1,289 @@
+Windows PowerShell
+版权所有 (C) 2009 Microsoft Corporation。保留所有权利。
+
+PS D:\Pycharm\begin_and_practice\mitmproxy> .\dev.ps1
+Looking in indexes: https://pypi.doubanio.com/simple/
+Collecting pip
+  Downloading https://pypi.doubanio.com/packages/c2/d7/90f34cb0d83a6c5631cf71dfe64cc1054598c843a92b400e55675cc2ac37/pip-
+18.1-py2.py3-none-any.whl (1.3MB)
+    100% |████████████████████████████████| 1.3MB 4.7MB/s
+Installing collected packages: pip
+  Found existing installation: pip 10.0.1
+    Uninstalling pip-10.0.1:
+      Successfully uninstalled pip-10.0.1
+Successfully installed pip-18.1
+Looking in indexes: https://pypi.doubanio.com/simple/
+Obtaining file:///D:/Pycharm/begin_and_practice/mitmproxy (from -r requirements.txt (line 1))
+Collecting blinker<1.5,>=1.4 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/1b/51/e2a9f3b757eb802f61dc1f2b09c8c99f6eb01cf06416c0671253536517b6/blin
+ker-1.4.tar.gz (111kB)
+    100% |████████████████████████████████| 112kB 2.4MB/s
+Collecting brotlipy<0.8,>=0.7.0 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/d9/91/bc79b88590e4f662bd40a55a2b6beb0f15da4726732efec5aa5a3763d856/brot
+lipy-0.7.0.tar.gz (413kB)
+    100% |████████████████████████████████| 419kB 10.2MB/s
+Collecting certifi>=2015.11.20.1 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/df/f7/04fee6ac349e915b82171f8e23cee63644d83663b34c539f7a09aed18f9e/cert
+ifi-2018.8.24-py2.py3-none-any.whl (147kB)
+    100% |████████████████████████████████| 153kB 14.6MB/s
+Collecting click<7,>=6.2 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/34/c1/8806f99713ddb993c5366c362b2f908f18269f8d792aff1abfd700775a77/clic
+k-6.7-py2.py3-none-any.whl (71kB)
+    100% |████████████████████████████████| 71kB 9.0MB/s
+Collecting cryptography<2.4,>=2.1.4 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/39/dd/43985388f82ac0b4698671e96235c6324bdf14339e21eb3647f4e5b99017/cryp
+tography-2.3.1-cp37-cp37m-win_amd64.whl (1.3MB)
+    100% |████████████████████████████████| 1.3MB 7.9MB/s
+Collecting h2<4,>=3.0.1 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/30/2b/833e258072d47865b99dc0810475481d6371e3d3bfede9251ca27035e30f/h2-3
+.0.1-py2.py3-none-any.whl (71kB)
+    100% |████████████████████████████████| 81kB 8.2MB/s
+Collecting hyperframe<6,>=5.1.0 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/44/23/e9b5095440ccac7f8ecd72a90dbd0a38791f5f2134a329e2f331b7e64c58/hype
+rframe-5.1.0-py2.py3-none-any.whl
+Collecting kaitaistruct<0.9,>=0.7 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+Collecting ldap3<2.6,>=2.5 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/86/ff/439de3a80632ba187511dbdcac43c9d8e1649271f5af5e997d9ed1410291/ldap
+3-2.5.1.tar.gz (352kB)
+    100% |████████████████████████████████| 358kB 4.7MB/s
+Collecting passlib<1.8,>=1.6.5 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/ee/a7/d6d238d927df355d4e4e000670342ca4705a72f0bf694027cf67d9bcf5af/pass
+lib-1.7.1-py2.py3-none-any.whl (498kB)
+    100% |████████████████████████████████| 501kB 7.9MB/s
+Collecting protobuf<3.7,>=3.6.0 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/77/78/a7f1ce761e2c738e209857175cd4f90a8562d1bde32868a8cd5290d58926/prot
+obuf-3.6.1-py2.py3-none-any.whl (390kB)
+    100% |████████████████████████████████| 399kB 11.4MB/s
+Collecting pyasn1<0.5,>=0.3.1 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/d1/a1/7790cc85db38daa874f6a2e6308131b9953feb1367f2ae2d1123bb93a9f5/pyas
+n1-0.4.4-py2.py3-none-any.whl (72kB)
+    100% |████████████████████████████████| 81kB 5.9MB/s
+Collecting pyOpenSSL<18.1,>=17.5 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/96/af/9d29e6bd40823061aea2e0574ccb2fcf72bfd6130ce53d32773ec375458c/pyOp
+enSSL-18.0.0-py2.py3-none-any.whl (53kB)
+    100% |████████████████████████████████| 61kB 10.2MB/s
+Collecting pyparsing<2.3,>=2.1.3 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/2b/4a/f06b45ab9690d4c37641ec776f7ad691974f4cf6943a73267475b05cbfca/pypa
+rsing-2.2.2-py2.py3-none-any.whl (57kB)
+    100% |████████████████████████████████| 61kB 10.2MB/s
+Collecting pyperclip<1.7,>=1.6.0 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/80/a4/7c65c8fb16787d74f720dfb1dee4227a65058f268e91014e24fd76b18f8b/pype
+rclip-1.6.5.tar.gz
+Collecting ruamel.yaml<0.15.55,>=0.13.2 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/f6/29/6688c70f9a4fd8c372cbfeb014c5c177059dc13ef3b027ed041994c18c9b/ruam
+el.yaml-0.15.54-cp37-cp37m-win_amd64.whl (209kB)
+    100% |████████████████████████████████| 215kB 3.4MB/s
+Collecting sortedcontainers<2.1,>=1.5.4 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/be/e3/a065de5fdd5849450a8a16a52a96c8db5f498f245e7eda06cc6725d04b80/sort
+edcontainers-2.0.5-py2.py3-none-any.whl
+Collecting tornado<5.2,>=4.3 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/d7/d5/99aff77c15da335e3dbf30254b304a526494dca8e51b4b47419772e35a4e/torn
+ado-5.1.1-cp37-cp37m-win_amd64.whl (455kB)
+    100% |████████████████████████████████| 460kB 12.8MB/s
+Collecting urwid<2.1,>=2.0.1 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/c7/90/415728875c230fafd13d118512bde3184d810d7bf798a631abc05fac09d0/urwi
+d-2.0.1.tar.gz (604kB)
+    100% |████████████████████████████████| 614kB 8.5MB/s
+Collecting wsproto<0.13.0,>=0.12.0 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/6b/f8/300c85ce7473a6e81c6aef294b6bb55375720e08974cdec915793eafaf58/wspr
+oto-0.12.0-py2.py3-none-any.whl
+Collecting pydivert<2.2,>=2.0.3 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/ca/8f/86d7931c62013a5a7ebf4e1642a87d4a6050c0f570e714f61b0df1984c62/pydi
+vert-2.1.0-py2.py3-none-any.whl (104kB)
+    100% |████████████████████████████████| 112kB 10.2MB/s
+Collecting asynctest>=0.12.0 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/ee/29/9a9289a11b56ceb28dc18fc5b1af9b4223a387269252bb0f349c9da2ed10/asyn
+ctest-0.12.2-py3-none-any.whl
+Collecting flake8<3.6,>=3.5 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/b9/dc/14e9d94c770b8c4ef584e906c7583e74864786a58d47de101f2767d50c0b/flak
+e8-3.5.0-py2.py3-none-any.whl (69kB)
+    100% |████████████████████████████████| 71kB 9.0MB/s
+Collecting Flask<1.1,>=1.0 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/7f/e7/08578774ed4536d3242b14dacb4696386634607af824ea997202cd0edb4b/Flas
+k-1.0.2-py2.py3-none-any.whl (91kB)
+    100% |████████████████████████████████| 92kB 9.2MB/s
+Collecting mypy<0.591,>=0.590 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/d6/e2/37a8a5dce634a094b90e13eda246a4b736a660124e78808f47fbad99f510/mypy
+-0.590-py3-none-any.whl (1.3MB)
+    100% |████████████████████████████████| 1.3MB 5.7MB/s
+Collecting parver<2.0,>=0.1 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/1a/ab/b375411ba95b2a714dd4042571de767587cf174a131703326e1ffe480841/parv
+er-0.1.1-py2.py3-none-any.whl
+Collecting pytest-asyncio>=0.8 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/33/7f/2ed9f460872ebcc62d30afad167673ca10df36ff56a6f6df2f1d3671adc8/pyte
+st_asyncio-0.9.0-py3-none-any.whl
+Collecting pytest-cov<3,>=2.5.1 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/30/0a/1b009b525526cd3cd9f52f52391b426c5a3597447be811a10bcb1f6b05eb/pyte
+st_cov-2.6.0-py2.py3-none-any.whl
+Collecting pytest-faulthandler<2,>=1.3.1 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/52/d7/13e81ff8f3f9e2ee3d22a59e0d09a4010aaa21b41dd088d757148ccca2be/pyte
+st_faulthandler-1.5.0-py2.py3-none-any.whl
+Collecting pytest-timeout<2,>=1.2.1 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/ae/77/3b714fcfda89925be29f5cdea5b6199912265f54dc23b9af7d8c588e1830/pyte
+st_timeout-1.3.2-py2.py3-none-any.whl
+Collecting pytest-xdist<2,>=1.22 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/66/7f/22c9c643c986084ee5e2cbd05a0e0e04fc120ecdca0a08f91ee90344a052/pyte
+st_xdist-1.23.2-py2.py3-none-any.whl
+Collecting pytest<4,>=3.3 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/08/e0/a4945a06380802264b3416d788ad607588c334662b6cd0af54144c45912d/pyte
+st-3.8.2-py2.py3-none-any.whl (209kB)
+    100% |████████████████████████████████| 215kB 10.2MB/s
+Collecting requests<3,>=2.9.1 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/65/47/7e02164a2a3db50ed6d8a6ab1d6d60b69c4c3fdf57a284257925dfc12bda/requ
+ests-2.19.1-py2.py3-none-any.whl (91kB)
+    100% |████████████████████████████████| 92kB 10.2MB/s
+Collecting tox<3.2,>=3.0 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/77/ba/2fdc3a1629a3b801eb69dd656dafc545d811a11c6df1f21796985a89eb92/tox-
+3.1.3-py2.py3-none-any.whl (61kB)
+    100% |████████████████████████████████| 71kB 3.1MB/s
+Collecting rstcheck<4.0,>=2.2 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/ea/6e/c7a910dce2cafa17942b456cdbb5cf637a87a549e491d794b424b90e2bb1/rstc
+heck-3.3.tar.gz
+Collecting beautifulsoup4<4.7,>=4.4.1 (from mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/21/0a/47fdf541c97fd9b6a610cb5fd518175308a7cc60569962e776ac52420387/beau
+tifulsoup4-4.6.3-py3-none-any.whl (90kB)
+    100% |████████████████████████████████| 92kB 8.4MB/s
+Collecting cffi>=1.0.0 (from brotlipy<0.8,>=0.7.0->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/ca/f2/e375b7469a2dfe9d1feac81a10df97f18cd771b9a10ac62ca9864b760f7c/cffi
+-1.11.5-cp37-cp37m-win_amd64.whl (165kB)
+    100% |████████████████████████████████| 174kB 9.3MB/s
+Collecting asn1crypto>=0.21.0 (from cryptography<2.4,>=2.1.4->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/ea/cd/35485615f45f30a510576f1a56d1e0a7ad7bd8ab5ed7cdc600ef7cd06222/asn1
+crypto-0.24.0-py2.py3-none-any.whl (101kB)
+    100% |████████████████████████████████| 102kB 4.5MB/s
+Collecting six>=1.4.1 (from cryptography<2.4,>=2.1.4->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/67/4b/141a581104b1f6397bfa78ac9d43d8ad29a7ca43ea90a2d863fe3056e86a/six-
+1.11.0-py2.py3-none-any.whl
+Collecting idna>=2.1 (from cryptography<2.4,>=2.1.4->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/4b/2a/0276479a4b3caeb8a8c1af2f8e4355746a97fab05a372e4a2c6a6b876165/idna
+-2.7-py2.py3-none-any.whl (58kB)
+    100% |████████████████████████████████| 61kB 7.7MB/s
+Collecting hpack<4,>=2.3 (from h2<4,>=3.0.1->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/8a/cc/e53517f4a1e13f74776ca93271caef378dadec14d71c61c949d759d3db69/hpac
+k-3.0.0-py2.py3-none-any.whl
+Requirement already satisfied: setuptools in d:\pycharm\begin_and_practice\mitmproxy\venv\lib\site-packages (from protob
+uf<3.7,>=3.6.0->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1)) (39.0.1)
+Collecting h11~=0.8.1 (from wsproto<0.13.0,>=0.12.0->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/f9/f3/8e4cf5fa1a3d8bda942a0b1cf92f87815494216fd439f82eb99073141ba0/h11-
+0.8.1-py2.py3-none-any.whl (55kB)
+    100% |████████████████████████████████| 61kB 6.8MB/s
+Collecting pyflakes<1.7.0,>=1.5.0 (from flake8<3.6,>=3.5->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/d7/40/733bcc64da3161ae4122c11e88269f276358ca29335468005cb0ee538665/pyfl
+akes-1.6.0-py2.py3-none-any.whl (227kB)
+    100% |████████████████████████████████| 235kB 14.6MB/s
+Collecting mccabe<0.7.0,>=0.6.0 (from flake8<3.6,>=3.5->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/87/89/479dc97e18549e21354893e4ee4ef36db1d237534982482c3681ee6e7b57/mcca
+be-0.6.1-py2.py3-none-any.whl
+Collecting pycodestyle<2.4.0,>=2.0.0 (from flake8<3.6,>=3.5->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/e4/81/78fe51eb4038d1388b7217dd63770b0f428370207125047312886c923b26/pyco
+destyle-2.3.1-py2.py3-none-any.whl (45kB)
+    100% |████████████████████████████████| 51kB 7.3MB/s
+Collecting Werkzeug>=0.14 (from Flask<1.1,>=1.0->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/20/c4/12e3e56473e52375aa29c4764e70d1b8f3efa6682bef8d0aae04fe335243/Werk
+zeug-0.14.1-py2.py3-none-any.whl (322kB)
+    100% |████████████████████████████████| 327kB 10.2MB/s
+Collecting Jinja2>=2.10 (from Flask<1.1,>=1.0->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/7f/ff/ae64bacdfc95f27a016a7bed8e8686763ba4d277a78ca76f32659220a731/Jinj
+a2-2.10-py2.py3-none-any.whl (126kB)
+    100% |████████████████████████████████| 133kB 12.8MB/s
+Collecting itsdangerous>=0.24 (from Flask<1.1,>=1.0->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/dc/b4/a60bcdba945c00f6d608d8975131ab3f25b22f2bcfe1dab221165194b2d4/itsd
+angerous-0.24.tar.gz (46kB)
+    100% |████████████████████████████████| 51kB 7.3MB/s
+Collecting typed-ast<1.2.0,>=1.1.0 (from mypy<0.591,>=0.590->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/7b/72/1d252fba8fc2bd3e83515404d7b4bdda5e50e24a6c60be5e984dbf3c5286/type
+d_ast-1.1.0-cp37-cp37m-win_amd64.whl (141kB)
+    100% |████████████████████████████████| 143kB 9.3MB/s
+Collecting attrs>=17.4.0 (from parver<2.0,>=0.1->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/3a/e1/5f9023cc983f1a628a8c2fd051ad19e76ff7b142a0faf329336f9a62a514/attr
+s-18.2.0-py2.py3-none-any.whl
+Collecting arpeggio~=1.7 (from parver<2.0,>=0.1->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/ec/5c/9cccf42a59406476f81993158376947a1487e3fcd84c01914c1ad17e54e1/Arpe
+ggio-1.9.0-py2.py3-none-any.whl
+Collecting coverage>=4.4 (from pytest-cov<3,>=2.5.1->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/35/fe/e7df7289d717426093c68d156e0fd9117c8f4872b6588e8a8928a0f68424/cove
+rage-4.5.1.tar.gz (379kB)
+    100% |████████████████████████████████| 389kB 3.7MB/s
+Collecting execnet>=1.1 (from pytest-xdist<2,>=1.22->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/f9/76/3343e69a2a1602052f587898934e5fea395d22310d39c07955596597227c/exec
+net-1.5.0-py2.py3-none-any.whl
+Collecting pytest-forked (from pytest-xdist<2,>=1.22->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/dd/9d/fb75af584b850a902c9ce5ec96ea5c623978113b8a240ab414e1a435df93/pyte
+st_forked-0.2-py2.py3-none-any.whl
+Collecting atomicwrites>=1.0 (from pytest<4,>=3.3->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/3a/9a/9d878f8d885706e2530402de6417141129a943802c084238914fa6798d97/atom
+icwrites-1.2.1-py2.py3-none-any.whl
+Collecting py>=1.5.0 (from pytest<4,>=3.3->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/c8/47/d179b80ab1dc1bfd46a0c87e391be47e6c7ef5831a9c138c5c49d1756288/py-1
+.6.0-py2.py3-none-any.whl (83kB)
+    100% |████████████████████████████████| 92kB 9.2MB/s
+Collecting colorama; sys_platform == "win32" (from pytest<4,>=3.3->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/db/c8/7dcf9dbcb22429512708fe3a547f8b6101c0d02137acbd892505aee57adf/colo
+rama-0.3.9-py2.py3-none-any.whl
+Collecting more-itertools>=4.0.0 (from pytest<4,>=3.3->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/79/b1/eace304ef66bd7d3d8b2f78cc374b73ca03bc53664d78151e9df3b3996cc/more
+_itertools-4.3.0-py3-none-any.whl (48kB)
+    100% |████████████████████████████████| 51kB 10.2MB/s
+Collecting pluggy>=0.7 (from pytest<4,>=3.3->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/f5/f1/5a93c118663896d83f7bcbfb7f657ce1d0c0d617e6b4a443a53abcc658ca/plug
+gy-0.7.1-py2.py3-none-any.whl
+Collecting urllib3<1.24,>=1.21.1 (from requests<3,>=2.9.1->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/bd/c9/6fdd990019071a4a32a5e7cb78a1d92c53851ef4f56f62a3486e6a7d8ffb/urll
+ib3-1.23-py2.py3-none-any.whl (133kB)
+    100% |████████████████████████████████| 143kB 12.8MB/s
+Collecting chardet<3.1.0,>=3.0.2 (from requests<3,>=2.9.1->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/char
+det-3.0.4-py2.py3-none-any.whl (133kB)
+    100% |████████████████████████████████| 143kB 17.1MB/s
+Collecting virtualenv>=1.11.2 (from tox<3.2,>=3.0->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/b6/30/96a02b2287098b23b875bc8c2f58071c35d2efe84f747b64d523721dc2b5/virt
+ualenv-16.0.0-py2.py3-none-any.whl (1.9MB)
+    100% |████████████████████████████████| 1.9MB 3.9MB/s
+Collecting packaging>=17.1 (from tox<3.2,>=3.0->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/89/d1/92e6df2e503a69df9faab187c684585f0136662c12bb1f36901d426f3fab/pack
+aging-18.0-py2.py3-none-any.whl
+Collecting docutils>=0.7 (from rstcheck<4.0,>=2.2->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/36/fa/08e9e6e0e3cbd1d362c3bbee8d01d0aedb2155c4ac112b19ef3cae8eed8d/docu
+tils-0.14-py3-none-any.whl (543kB)
+    100% |████████████████████████████████| 552kB 12.8MB/s
+Collecting pycparser (from cffi>=1.0.0->brotlipy<0.8,>=0.7.0->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+Collecting MarkupSafe>=0.23 (from Jinja2>=2.10->Flask<1.1,>=1.0->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/4d/de/32d741db316d8fdb7680822dd37001ef7a448255de9699ab4bfcbdf4172b/Mark
+upSafe-1.0.tar.gz
+Collecting apipkg>=1.4 (from execnet>=1.1->pytest-xdist<2,>=1.22->mitmproxy==5.0.0.dev0->-r requirements.txt (line 1))
+  Downloading https://pypi.doubanio.com/packages/67/08/4815a09603fc800209431bec5b8bd2acf2f95abdfb558a44a42507fb94da/apip
+kg-1.5-py2.py3-none-any.whl
+Installing collected packages: blinker, pycparser, cffi, brotlipy, certifi, click, asn1crypto, six, idna, cryptography,
+hpack, hyperframe, h2, kaitaistruct, pyasn1, ldap3, passlib, protobuf, pyOpenSSL, pyparsing, pyperclip, ruamel.yaml, sor
+tedcontainers, tornado, urwid, h11, wsproto, pydivert, asynctest, pyflakes, mccabe, pycodestyle, flake8, Werkzeug, Marku
+pSafe, Jinja2, itsdangerous, Flask, typed-ast, mypy, attrs, arpeggio, parver, atomicwrites, py, colorama, more-itertools
+, pluggy, pytest, pytest-asyncio, coverage, pytest-cov, pytest-faulthandler, pytest-timeout, apipkg, execnet, pytest-for
+ked, pytest-xdist, urllib3, chardet, requests, virtualenv, packaging, tox, docutils, rstcheck, beautifulsoup4, mitmproxy
+
+  Running setup.py install for blinker ... done
+  Running setup.py install for brotlipy ... done
+  Running setup.py install for ldap3 ... done
+  Running setup.py install for pyperclip ... done
+  Running setup.py install for urwid ... done
+  Running setup.py install for MarkupSafe ... done
+  Running setup.py install for itsdangerous ... done
+  Running setup.py install for coverage ... done
+  Running setup.py install for rstcheck ... done
+  Running setup.py develop for mitmproxy
+Successfully installed Flask-1.0.2 Jinja2-2.10 MarkupSafe-1.0 Werkzeug-0.14.1 apipkg-1.5 arpeggio-1.9.0 asn1crypto-0.24.
+0 asynctest-0.12.2 atomicwrites-1.2.1 attrs-18.2.0 beautifulsoup4-4.6.3 blinker-1.4 brotlipy-0.7.0 certifi-2018.8.24 cff
+i-1.11.5 chardet-3.0.4 click-6.7 colorama-0.3.9 coverage-4.5.1 cryptography-2.3.1 docutils-0.14 execnet-1.5.0 flake8-3.5
+.0 h11-0.8.1 h2-3.0.1 hpack-3.0.0 hyperframe-5.1.0 idna-2.7 itsdangerous-0.24 kaitaistruct-0.8 ldap3-2.5.1 mccabe-0.6.1
+mitmproxy more-itertools-4.3.0 mypy-0.590 packaging-18.0 parver-0.1.1 passlib-1.7.1 pluggy-0.7.1 protobuf-3.6.1 py-1.6.0
+ pyOpenSSL-18.0.0 pyasn1-0.4.4 pycodestyle-2.3.1 pycparser-2.19 pydivert-2.1.0 pyflakes-1.6.0 pyparsing-2.2.2 pyperclip-
+1.6.5 pytest-3.8.2 pytest-asyncio-0.9.0 pytest-cov-2.6.0 pytest-faulthandler-1.5.0 pytest-forked-0.2 pytest-timeout-1.3.
+2 pytest-xdist-1.23.2 requests-2.19.1 rstcheck-3.3 ruamel.yaml-0.15.54 six-1.11.0 sortedcontainers-2.0.5 tornado-5.1.1 t
+ox-3.1.3 typed-ast-1.1.0 urllib3-1.23 urwid-2.0.1 virtualenv-16.0.0 wsproto-0.12.0
+
+  * Created virtualenv environment in .\venv.
+  * Installed all dependencies into the virtualenv.
+  * Activated virtualenv environment.
+
+(venv) PS D:\Pycharm\begin_and_practice\mitmproxy>
+
+

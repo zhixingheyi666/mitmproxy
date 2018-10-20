@@ -81,8 +81,20 @@ def run(
         print("-R is used for specifying replacements.\n"
               "To use mitmproxy in reverse mode please use --mode reverse:SPEC instead")
 
+    # SF 通过print输出得到args的内容
+    """
+    Namespace(anticache=None, anticomp=None, certs=None, client_replay=None, commands=False,
+    confdir='~/.mitmproxy', http2=None, ignore_hosts=None, intercept=None, listen_host='192.168.0.7',
+    listen_port=8888, mode=None, options=False, proxyauth=None, quiet=False, rawtcp=None,
+    replacements=None, rfile=None, save_stream_file=None, scripts=None, server=None,
+    server_replay=None, server_replay_kill_extra=None, server_replay_nopop=None, setheaders=None,
+    setoptions=[], showhost=None, ssl_insecure=None, stickyauth=None, stickycookie=None,
+    tcp_hosts=None, upstream_auth=None, verbose=None, version=False, web_iface=None,
+    web_open_browser=None, web_port=None)
+    """
     try:
         args = parser.parse_args(arguments)
+    #SF：如果中间的代码调用了sys.exit就会触发SystemExit
     except SystemExit:
         arg_check.check()
         sys.exit(1)
@@ -173,3 +185,6 @@ def mitmweb(args=None) -> typing.Optional[int]:  # pragma: no cover
     from mitmproxy.tools import web
     run(web.master.WebMaster, cmdline.mitmweb, args)
     return None
+
+# SF 添加个debug 停靠点
+3 + 5

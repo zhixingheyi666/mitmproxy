@@ -1,0 +1,85 @@
+---------------------------20181020----------------------------------------------
+C:\Users\lenovo>mitmweb --listen-host 192.168.0.106 -p 8888 -- sfs dsga
+-------------------|| SF ||--------------------
+['C:\\Python37\\Scripts\\mitmweb.exe', '--listen-host', '192.168.0.106', '-p', '8888', '--', 'sfs', 'dsga']
+-------------------|| SF ||--------------------
+mitmweb: error: unrecognized arguments: -- sfs dsga
+---------------------------20181020----------------------------------------------
+C:\Users\lenovo>mitmweb -R http
+----------------------------------------
+{'__name__': '__main__', '__doc__': None, '__package__': '', '__loader__': <zipimporter object "C:\Python37\Scripts\mitm
+web.exe">, '__spec__': ModuleSpec(name='__main__', loader=<zipimporter object "C:\Python37\Scripts\mitmweb.exe">, origin
+='C:\\Python37\\Scripts\\mitmweb.exe\\__main__.py'), '__annotations__': {}, '__builtins__': <module 'builtins' (built-in
+)>, '__file__': 'C:\\Python37\\Scripts\\mitmweb.exe\\__main__.py', '__cached__': 'C:\\Python37\\Scripts\\mitmweb.exe\\__
+pycache__\\__main__.cpython-37.pyc'}
+----------------------------------------
+['C:\\Python37\\Scripts\\mitmweb.exe', '-R', 'http']
+----------------------------------------
+--------------------|| SF,_main.py: line87 ||--------------------
+Namespace(
+ anticache=None,
+ anticomp=None,
+ certs=None,
+ client_replay=None,
+ commands=False,
+ confdir='~/.mitmproxy',
+ http2=None,
+ ignore_hosts=None,
+ intercept=None,
+ listen_host='192.168.0.7',
+ listen_port=8888,
+ mode=None,
+ options=False,
+ proxyauth=None,
+ quiet=False,
+ rawtcp=None,
+ replacements=None,
+ rfile=None,
+ save_stream_file=None,
+ scripts=None,
+ server=None,
+ server_replay=None,
+ server_replay_kill_extra=None,
+ server_replay_nopop=None,
+ setheaders=None,
+ setoptions=[],
+ showhost=None,
+ ssl_insecure=None,
+ stickyauth=None,
+ stickycookie=None,
+ tcp_hosts=None,
+ upstream_auth=None,
+ verbose=None,
+ version=False,
+ web_iface=None,
+ web_open_browser=None,
+ web_port=None)
+--------------------|| SF,_main.py: line87 ||--------------------
+-R is used for specifying replacements.
+To use mitmproxy in reverse mode please use --mode reverse:SPEC instead
+C:\Python37\Scripts\mitmweb: Invalid replacement specifier: http
+---------------------------20181015----------------------------------------------
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\lenovo>mitmweb -R
+Traceback (most recent call last):
+  File "c:\python37\lib\runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "c:\python37\lib\runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "C:\Python37\Scripts\mitmweb.exe\__main__.py", line 9, in <module>
+  File "c:\python37\lib\site-packages\mitmproxy\tools\_main.py", line 174, in mitmweb
+    run(web.master.WebMaster, cmdline.mitmweb, args)
+  File "c:\python37\lib\site-packages\mitmproxy\tools\_main.py", line 80, in run
+    if "-R" in sys.argv and sys.argv[sys.argv.index("-R") + 1].startswith("http"):
+IndexError: list index out of range
+---------------------------20181015----------------------------------------------
+
+C:\Users\lenovo>mitmweb -R http1
+-R is used for specifying replacements.
+To use mitmproxy in reverse mode please use --mode reverse:SPEC instead
+C:\Python37\Scripts\mitmweb: Invalid replacement specifier: http1
+
+C:\Users\lenovo>
+

@@ -1,0 +1,13 @@
+
+PS D:\Pycharm\begin_and_practice\mitmproxy> mitmweb --version
+Mitmproxy: 4.0.4
+Python:    3.7.0
+OpenSSL:   OpenSSL 1.1.0i  14 Aug 2018
+Platform:  Windows-7-6.1.7601-SP1
+PS D:\Pycharm\begin_and_practice\mitmproxy> .\venv\Scripts\activate
+(venv) PS D:\Pycharm\begin_and_practice\mitmproxy> mitmweb --version
+Mitmproxy: 5.0.0.dev (+179, commit 57868ef)
+Python:    3.7.0
+OpenSSL:   OpenSSL 1.1.0i  14 Aug 2018
+Platform:  Windows-7-6.1.7601-SP1
+(venv) PS D:\Pycharm\begin_and_practice\mitmproxy>

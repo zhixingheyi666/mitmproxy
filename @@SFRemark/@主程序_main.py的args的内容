@@ -1,0 +1,62 @@
+# 1.Namespace版(通过print输出的，正宗的)
+Namespace(
+ anticache=None,
+ anticomp=None,
+ certs=None,
+ client_replay=None,
+ commands=False,
+ confdir='~/.mitmproxy',
+ http2=None,
+ ignore_hosts=None,
+ intercept=None,
+ listen_host='192.168.0.7',
+ listen_port=8888,
+ mode=None,
+ options=False,
+ proxyauth=None,
+ quiet=False,
+ rawtcp=None,
+ replacements=None,
+ rfile=None,
+ save_stream_file=None,
+ scripts=None,
+ server=None,
+ server_replay=None,
+ server_replay_kill_extra=None,
+ server_replay_nopop=None,
+ setheaders=None,
+ setoptions=[],
+ showhost=None,
+ ssl_insecure=None,
+ stickyauth=None,
+ stickycookie=None,
+ tcp_hosts=None,
+ upstream_auth=None,
+ verbose=None,
+ version=False,
+ web_iface=None,
+ web_open_browser=None,
+ web_port=None)
+
+# 2.dict版(自己编辑的，测试用)
+
+args_test_i = dict(anticache=None, anticomp=None, certs=None, client_replay=None, commands=False,
+confdir='~/.mitmproxy', http2=None, ignore_hosts=None, intercept=None, listen_host='192.168.0.7',
+listen_port=8888, mode=None, options=False, proxyauth=None, quiet=False, rawtcp=None,
+replacements=None, rfile=None, save_stream_file=None, scripts=None, server=None,
+server_replay=None, server_replay_kill_extra=None, server_replay_nopop=None, setheaders=None,
+setoptions=[], showhost=None, ssl_insecure=None, stickyauth=None, stickycookie=None,
+tcp_hosts=None, upstream_auth=None, verbose=None, version=False, web_iface=None,
+web_open_browser=None, web_port=None)
+
+# 2.tuple版(自己编辑的，测试用)
+
+args_test_iii = (('anticache','None'), ('anticomp','None'), ('certs','None'), ('client_replay','None'),
+('commands','False'),('confdir','~/.mitmproxy'), ('http2','None'), ('ignore_hosts','None'),
+('intercept','None'),('listen_host','192.168.0.7'), ('listen_port','8888'), ('mode','None'),
+('options','False'), ('proxyauth','None'), ('quiet','False'), ('rawtcp','None'),
+('replacements','None'), ('rfile','None'), ('save_stream_file','None'), ('scripts','None'), ('server','None'),
+('server_replay','None'), ('server_replay_kill_extra','None'), ('server_replay_nopop','None'),
+('setheaders','None'),('setoptions',[]), ('showhost','None'), ('ssl_insecure','None'), ('stickyauth','None'),
+('stickycookie','None'),('tcp_hosts','None'), ('upstream_auth','None'), ('verbose','None'),
+('version','False'), ('web_iface','None'),('web_open_browser','None'), ('web_port','None'))
