@@ -27,13 +27,20 @@ if __name__ == "__main__":
 
     # ···调试传参说明
     """
-    ·· SF：这里的parse参数，实际上是针对操作系统传来的参数进行解析。
-        1.具体详细的规则，可以搜索一下。
+    SF：mitmweb和mitmdump两个函数的参数，正式运行过程中，或者将程序打包成installer然后运行时)
+            ，来自于操作系统解析命令行的命令后传来的参数。
+        1.操作系统解析命令行语句的具体详细规则，可以搜索一下。
         2.至少操作系统会使用空格作为分隔符解析命令行中命令后面的参数字串。
             例如:
                 C:\\Users\\lenovo>mitmweb --listen-host 192.168.0.106 -p 8888 -- sfs dsga'
-            程序的到的arguments，也就是sys.argv:
+            程序得到的arguments(这里是以win7系统为例)，也就是sys.argv:
                 ['C:\\Python37\\Scripts\\mitmweb.exe', '--listen-host', '192.168.0.106', '-p', '8888', '--', 'sfs', 'dsga']
+    基于以上分析，如果为了方便调试，需要在pycharm这个开发环境中运行本项目，根据对argparse.py解析参数的分析
+    ·· 传参方案是:
+            每个参数选项以及每个参数值，都是单独的字符串，将他们组装在一个list中。
+            要注意参数选项和参数值的对应关系。
+            也可以将参数选项和参数值用等号连接，放在一个字符串中作为list的一项。
+            最后将list名作为参数传给mitmweb和mitmdump
     """
     args_test_ii = ['--listen-host', '192.168.0.106', '-p=7777']
     args_test_iii = ['--listen-host=192.168.0.106', '-p 7777']
